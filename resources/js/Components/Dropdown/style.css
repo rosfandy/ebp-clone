@@ -1,0 +1,24 @@
+#triangle::before,
+#triangle::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  @apply mt-[7px] mr-[12px]
+}
+
+#triangle::before {
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 11px solid #E6E8EB;
+  top: -5px;
+  right: 12px;
+}
+
+#triangle::after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  top: -3px;
+  right: 12.8px;
+}
