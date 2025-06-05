@@ -6,7 +6,7 @@ E-Bebas Pustaka ITS (Librigo) adalah aplikasi berbasis web yang dirancang untuk 
 
 -   **Frontend**: React.js
 -   **Backend**: Laravel
--   **Database**: SQL Server
+-   **Database**: PostgreSQL
 -   **Tools**:
     -   Vite (untuk build asset)
     -   Composer
