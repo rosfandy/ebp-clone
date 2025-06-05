@@ -38,7 +38,7 @@ Pastikan Anda sudah menginstal:
 
     ```bash
     git clone https://gitea.com/its-library/ebp-librigo
-    cd ebp-librigo
+    cd ebp-clone
     ```
 
 2. Install dependensi backend:
