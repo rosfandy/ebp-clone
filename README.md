@@ -14,8 +14,7 @@ E-Bebas Pustaka ITS (Librigo) adalah aplikasi berbasis web yang dirancang untuk 
 
 ## Pre-Installasi
 
--   Setup virtual host `https://librigo.local` beserta SSL Certificate
--   Setup SQL Server di `localhost`
+-   Setup PostgreSQL di `localhost`
 
 ## Instalasi
 
