@@ -14,7 +14,8 @@ E-Bebas Pustaka ITS (Librigo) adalah aplikasi berbasis web yang dirancang untuk 
 
 ## Pre-Installasi
 
--   Setup PostgreSQL di `localhost`
+-   Setup virtual host `https://librigo.local` beserta SSL Certificate
+-   Setup SQL Server di `localhost`
 
 ## Instalasi
 
@@ -37,7 +38,7 @@ Pastikan Anda sudah menginstal:
 
     ```bash
     git clone https://gitea.com/its-library/ebp-librigo
-    cd ebp-clone
+    cd ebp-librigo
     ```
 
 2. Install dependensi backend:
@@ -63,6 +64,13 @@ Pastikan Anda sudah menginstal:
 
     ```bash
     php artisan migrate --seed
+    ```
+
+    Dapat login dengan
+
+    ```bash
+    email : admin@admin.com
+    password : admin123
     ```
 
 5. Install dependensi frontend:
